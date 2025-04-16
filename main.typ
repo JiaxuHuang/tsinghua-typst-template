@@ -16,6 +16,7 @@
 #set text(font:("Georgia","STZhongsong"))
 #title-slide(authors: ([Author A], [Author B]))
 
+#toc-slide(left-indent: 5%)
 
 = 研究背景
 
@@ -29,7 +30,6 @@ hello world@long2018performance
 ==
 #lorem(40)
 = 研究结果
-// ...existing code...
 #matrix-slide[
   left
 ][
