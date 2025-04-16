@@ -11,7 +11,6 @@
 5. 实现了自动编号且包含超链接的目录页
 如下图所示
 
-![image](https://github.com/JiaxuHuang/tsinghua-typst-template/blob/main/preview_figures/title.png)
 ![image](https://github.com/JiaxuHuang/tsinghua-typst-template/blob/main/preview_figures/content.png)
 
 ## Typst
