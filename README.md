@@ -16,6 +16,6 @@
 
 ## Typst
 Typst 是可用于出版的可编程标记语言，使用简单，采用增量编译，速度相较于latex的beamer大大提高。本机测试几乎可以实时预览。
-
+Typst中文社区https://typst-doc-cn.github.io/docs/tutorial/
 
     
