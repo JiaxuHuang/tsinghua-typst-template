@@ -1,19 +1,16 @@
 #import "@preview/touying:0.6.1": *
-#import "themes/tsinghua.typ": *
+#import "themes/tsinghua_new.typ": *
 
 #import "@preview/numbly:0.1.0": numbly
 
-#show: university-theme.with(
-  aspect-ratio: "16-9",
-  config-info(
-    title: [开题答辩],
-    subtitle: [Subtitle],
-    date: datetime.today(),
-    institution: [Institution],
-    logo: image("themes/tsinghua.svg", width: 4cm),
-  ),
-)
-#set text(font:("Georgia","STZhongsong"))
+#show: university-theme.with(aspect-ratio: "16-9", config-info(
+  title: [汇报],
+  subtitle: [Subtitle],
+  date: datetime.today(),
+  institution: [Institution],
+  logo: image("themes/tsinghua.svg", width: 4cm),
+))
+#set text(font: ("Georgia", "STZhongsong"))
 #title-slide(authors: ([Author A], [Author B]))
 
 #toc-slide(left-indent: 5%)
@@ -52,6 +49,6 @@ hello world@long2018performance
 = 参考文献
 ==
 
-#set text(size: 0.7em)  // 调整参考文献的文本大小
-#bibliography(title: none,"b.bib", style: "apa")
+#set text(size: 0.7em) // 调整参考文献的文本大小
+#bibliography(title: none, "b.bib", style: "apa")
 
